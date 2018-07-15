@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEeJRTpCwU8_GedeaYSYkwlaAvStLJNWE&libraries=geometry&sensor=false"></script>
+    <script src="OpenLayers/lib/OpenLayers.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body onload="init()">
+<div id="map">
+    <div class="recherche">
+        <input type="text" id="valrecherche"/>
+        <button onclick="recherche()">Search</button>
+        <button onclick="annuler()">Cancel</button>
+    </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
